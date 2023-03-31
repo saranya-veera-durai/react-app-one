@@ -4,7 +4,9 @@ import App from './App'
 function Index() {
   return (
     <div>
-<App /> 
+<App title="titleone" text="Welcome all"/> 
+<App title="titletwo" text="Welcome "/> 
+<App title="titlethree" text="Welcome everyone"/> 
     </div>
   )
 }
