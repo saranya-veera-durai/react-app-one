@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Events from './components/Events';
+import SpreadOperator from './components/SpreadOperator';
 function Index() {
   return (
     <div>
-      <Events/>
+      <SpreadOperator/>
     </div>
   )
 }
