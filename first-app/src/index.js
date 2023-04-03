@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Routerr from './components/Routerr';
+import List from './components/List';
 function Index() {
   return (
     <div>
-<Routerr/>
+<List/>
     </div>
   )
 }
