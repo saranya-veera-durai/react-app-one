@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import UseEffect from './components/UseEffect';
+import UseMemo from './components/useMemo';
 function Index() {
   return (
     <div>
-      <UseEffect/>
+      <UseMemo/>
     </div>
   )
 }
