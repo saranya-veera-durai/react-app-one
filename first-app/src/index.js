@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import SpreadOperator from './components/SpreadOperator';
+import Usestate from './components/Usestate';
 function Index() {
   return (
     <div>
-      <SpreadOperator/>
+      <Usestate year={2004} num={4}/>
     </div>
   )
 }
