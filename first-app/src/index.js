@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Header from './App'
+import Routerr from './components/Routerr';
 function Index() {
   return (
     <div>
-<Header/>
+<Routerr/>
     </div>
   )
 }
