@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Condition from './components/Condition';
+import Events from './components/Events';
 function Index() {
   return (
     <div>
-<Condition isWinner={false}/>
+      <Events/>
     </div>
   )
 }
