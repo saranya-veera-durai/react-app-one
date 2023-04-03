@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Usestate from './components/Usestate';
+import UseEffect from './components/UseEffect';
 function Index() {
   return (
     <div>
-      <Usestate year={2004} num={4}/>
+      <UseEffect/>
     </div>
   )
 }
