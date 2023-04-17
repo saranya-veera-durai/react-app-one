@@ -1,10 +1,13 @@
-import React from 'react';
+import React from 'react'
+import Color from './comp/color'
+import Navbar from './comp/navbar'
 
-const Header=()=>{
-  return(
-    <>
-    <h1>hiiii</h1>
-    </>
+export default function App() {
+  return (
+    <div>
+
+      <Navbar/>
+      <Color/>
+    </div>
   )
 }
-export default Header
